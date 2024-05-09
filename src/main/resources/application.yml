@@ -1,9 +1,10 @@
 spring:
+  profiles.include: [ "vehicles" ]
   application:
     name: pet
-
-parameters:
-  vehicles:
-    - type: car
-      weight: 1500
-      capacity: 4
+  data:
+    mongodb:
+      uri: mongodb://mongo:27017/test
+      database: test
+      password: testPassword
+      username: testUser

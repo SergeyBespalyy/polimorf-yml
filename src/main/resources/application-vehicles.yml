@@ -1,0 +1,37 @@
+parameters:
+   vehicles:
+      - type: car
+        weight: 1500
+        capacity: 4
+        fuel: petrol
+
+      - type: bike
+        weight: 20
+        capacity: 1
+        numberOfWheels: 2
+
+      - type: truck
+        weight: 10000
+        capacity: 1
+        typeCargo: wood
+        fuel: diesel
+        liftingСapacity: 20
+
+      - type: truck
+        weight: 5000
+        capacity: 1
+        typeСargo: brick
+        fuel: diesel
+        liftingСapacity: 10
+
+      - type: bus
+        weight: 7000
+        capacity: 40
+        fuel: electronic
+        length: 40
+        floor: 2
+
+      - type: motorbike
+        weight: 300
+        capacity: 1
+        fuel: electronic
