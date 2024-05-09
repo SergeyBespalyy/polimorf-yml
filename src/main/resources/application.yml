@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: pet
+
+parameters:
+  vehicles:
+    - type: car
+      weight: 1500
+      capacity: 4

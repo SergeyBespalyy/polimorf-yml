@@ -1,0 +1,10 @@
+spring:
+  profiles.include: [ "vehicles" ]
+  application:
+    name: pet
+  data:
+    mongodb:
+      uri: mongodb://mongo:27017/test
+      database: test
+      password: testPassword
+      username: testUser
